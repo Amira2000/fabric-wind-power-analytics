@@ -25,6 +25,17 @@
 
 # CELL ********************
 
+#Testttttt
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
+
+# CELL ********************
+
 from pyspark.sql.functions import (col, round,dayofmonth, month, quarter, year,regexp_replace, substring, when)
 
 # METADATA ********************
