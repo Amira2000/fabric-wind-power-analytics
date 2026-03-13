@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "LH_Wind_Power_Bronze"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c2de4e2c-e450-917b-43ff-0a082f3f9258"
+  }
+}

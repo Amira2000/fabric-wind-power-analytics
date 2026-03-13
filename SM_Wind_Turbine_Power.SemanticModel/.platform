@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "SM_Wind_Turbine_Power"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "619d66c3-82c0-9cf1-417a-31de25403d29"
+  }
+}

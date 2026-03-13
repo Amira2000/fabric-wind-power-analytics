@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "RPT_Wind_Turbine_Power_Analysis"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1c5debfa-068b-8b34-4c5c-7fb44209f971"
+  }
+}

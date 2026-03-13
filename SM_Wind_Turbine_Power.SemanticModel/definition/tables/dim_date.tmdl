@@ -1,0 +1,61 @@
+table dim_date
+	lineageTag: 7ac52de8-3950-4fc6-851d-2899bcdc17c5
+	sourceLineageTag: [dbo].[dim_date]
+
+	column date_id
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 95494bb2-c483-48ee-a9c2-3402447feaf9
+		sourceLineageTag: date_id
+		summarizeBy: none
+		sourceColumn: date_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column day
+		dataType: int64
+		formatString: 0
+		lineageTag: c6968c60-72c1-40be-80f9-59bc1a789e0a
+		sourceLineageTag: day
+		summarizeBy: none
+		sourceColumn: day
+
+		annotation SummarizationSetBy = Automatic
+
+	column month
+		dataType: int64
+		formatString: 0
+		lineageTag: b5383ed7-c230-4f76-bee6-010662cf2669
+		sourceLineageTag: month
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation SummarizationSetBy = Automatic
+
+	column quarter
+		dataType: int64
+		formatString: 0
+		lineageTag: 2b84f73a-a4e8-4e0a-b35b-5547e64c75a1
+		sourceLineageTag: quarter
+		summarizeBy: none
+		sourceColumn: quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 329577c0-5b32-4062-859c-9d2a4a26f032
+		sourceLineageTag: year
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_date = entity
+		mode: directLake
+		source
+			entityName: dim_date
+			schemaName: dbo
+			expressionSource: 'DirectLake - LH_Wind_Power_Gold'
+

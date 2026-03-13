@@ -1,0 +1,59 @@
+table dim_time
+	lineageTag: 2cf9a56e-a0eb-4d7d-b7a6-e7654b08a9db
+	sourceLineageTag: [dbo].[dim_time]
+
+	column time_id
+		dataType: string
+		lineageTag: 83de0c77-d034-4a8f-aded-864ba30285e3
+		sourceLineageTag: time_id
+		summarizeBy: none
+		sourceColumn: time_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column hour_of_day
+		dataType: int64
+		formatString: 0
+		lineageTag: d970df93-1b14-4de9-bb0b-95c797099ce1
+		sourceLineageTag: hour_of_day
+		summarizeBy: none
+		sourceColumn: hour_of_day
+
+		annotation SummarizationSetBy = Automatic
+
+	column minute_of_hour
+		dataType: int64
+		formatString: 0
+		lineageTag: dcac6faf-1a08-450b-aaef-3fd09c01eabf
+		sourceLineageTag: minute_of_hour
+		summarizeBy: none
+		sourceColumn: minute_of_hour
+
+		annotation SummarizationSetBy = Automatic
+
+	column time_period
+		dataType: string
+		lineageTag: 465659f5-3071-4c89-b21d-4200ad828f6f
+		sourceLineageTag: time_period
+		summarizeBy: none
+		sourceColumn: time_period
+
+		annotation SummarizationSetBy = Automatic
+
+	column second_of_minute
+		dataType: int64
+		formatString: 0
+		lineageTag: 94612f5a-769f-4eb3-88dd-0730dd397884
+		sourceLineageTag: second_of_minute
+		summarizeBy: none
+		sourceColumn: second_of_minute
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_time = entity
+		mode: directLake
+		source
+			entityName: dim_time
+			schemaName: dbo
+			expressionSource: 'DirectLake - LH_Wind_Power_Gold'
+
