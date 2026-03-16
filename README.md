@@ -26,10 +26,9 @@ This project follows the **Medallion Architecture (Bronze → Silver → Gold)**
 
 - **Bronze Layer** → Raw data ingestion  
 - **Silver Layer** → Data cleaning and transformation  
-- **Gold Layer** → Analytics-ready star schema  
-
-
-
+- **Gold Layer** → Analytics-ready star schema
+- 
+![Image Alt](https://github.com/Amira2000/fabric-wind-power-analytics/blob/3aca66960f8b09afda8aa2ee5a024425c4256140/capture%201.png)
 
 The pipeline ensures that the **entire data platform runs automatically on a scheduled basis**.
 
