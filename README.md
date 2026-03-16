@@ -27,3 +27,70 @@ This project follows the **Medallion Architecture (Bronze → Silver → Gold)**
 - **Bronze Layer** → Raw data ingestion  
 - **Silver Layer** → Data cleaning and transformation  
 - **Gold Layer** → Analytics-ready star schema  
+
+
+
+
+The pipeline ensures that the **entire data platform runs automatically on a scheduled basis**.
+
+---
+
+# 🗂️ Data Model and Layers
+
+The data platform uses a **star schema model** to optimize analytical queries and reporting performance.
+
+### Fact Table
+
+**FactWindPower**
+
+Stores measurable metrics such as:
+
+- energy produced
+- wind speed
+- wind direction
+
+### Dimension Tables
+
+The dataset includes several dimensions that enrich the fact table:
+
+- **dim_date** → calendar information
+- **dim_time** → time attributes
+- **dim_turbine** → turbine metadata
+- **dim_operational_status** → turbine operational state
+
+Paste your **Star Schema / Semantic Model image here**
+
+
+
+
+
+
+The dashboard updates automatically whenever the pipeline processes new data.
+
+---
+
+# 🧰 Technologies Used
+
+- Microsoft Fabric  
+- PySpark  
+- Spark SQL  
+- Delta Lake  
+- Power BI  
+- Fabric Data Pipelines  
+- Dataflow Gen2  
+- GitHub  
+
+---
+
+# 🚀 Key Skills Demonstrated
+
+This project demonstrates key **data engineering capabilities**, including:
+
+- End-to-End Data Pipeline Design
+- Lakehouse Architecture
+- Distributed Data Processing with Spark
+- Dimensional Data Modeling
+- Automated Data Orchestration
+- Business Intelligence Reporting
+
+---
