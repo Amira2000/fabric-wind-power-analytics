@@ -1,5 +1,5 @@
 # fabric-wind-power-analytics
-# 🌬️ End-to-End Wind Power Data Platform with Microsoft Fabric
+# End-to-End Wind Power Data Platform with Microsoft Fabric
 
 ## 📌 Project Overview
 
