@@ -56,13 +56,7 @@ The dataset includes several dimensions that enrich the fact table:
 - **dim_time** → time attributes
 - **dim_turbine** → turbine metadata
 - **dim_operational_status** → turbine operational state
-
-Paste your **Star Schema / Semantic Model image here**
-
-
-
-
-
+![Image Alt](https://github.com/Amira2000/fabric-wind-power-analytics/blob/5e254df9301b3c4c4301a6f7d794e090f22a05db/Capture2.png)
 
 The dashboard updates automatically whenever the pipeline processes new data.
 
